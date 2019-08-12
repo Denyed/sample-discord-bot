@@ -1,0 +1,27 @@
+{
+  "name": "Dislog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Denyed/Dislog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Denyed/Dislog/issues"
+  },
+  "homepage": "https://github.com/Denyed/Dislog#readme",
+  "dependencies": {
+    "better-sqlite-pool": "^0.2.2",
+    "chalk": "^2.4.2",
+    "enmap": "^5.1.2",
+    "eris": "^0.10.1",
+    "moment": "^2.24.0"
+  }
+}
