@@ -20,7 +20,7 @@ const read = function(directory, files=[]) {
     readdirSync(directory)
         .forEach(path => {
             if (path.endsWith(".js")) return files.push(join(directory, path));
-            if (lstatSync(join(__dirname, "commands", path).isDirectory()) 
+            if (lstatSync(join(directory, path).isDirectory()) 
                 files.concat(read(join(directory, path), files));
         });
     return files;
